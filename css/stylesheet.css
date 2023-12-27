@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	border: 1px solid #999999;
+}
+#header {
+	height: 39px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	text-indent: 30px;
+	font-style: italic;
+}
+#seperator {
+	height: 10px;
+	border-bottom: 1px solid #999999;
+	background: url(../images/seperatorbg.png);
+}
+#navbar {
+	height: 20px;
+	border-bottom: 1px solid #999999;
+}
+#content {
+	height: 500px;
+	border-bottom: 1px solid #999999;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#footer {
+	height: 30px;
+	background-color: #333333;
+}
+ul, li {
+	margin-top: 5px;
+	padding: 0px;
+	list-style: none;
+}
+.menu {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+}
+.menu li a {
+	color: #333333;
+	text-decoration: none;
+	padding: 10px;
+}
+.menu li a:hover {
+	color: #000000;
+	font-weight: bold;	
+	padding: 9px;
+}
